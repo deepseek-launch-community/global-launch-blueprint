@@ -141,6 +141,6 @@ This is more than a proposal; it is a cross-border invitation. We invite you to 
 **本愿景由 DeepSeek 全球社区共同塑造**  
 **This vision is shaped by the DeepSeek global community**
 
-*最后更新 | Last updated: {{CURRENT_DATE}}*
+*最后更新 | Last updated: 2025年11月20日 | November 20, 2025*
 
 </div>
