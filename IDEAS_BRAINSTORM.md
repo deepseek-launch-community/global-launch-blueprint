@@ -141,5 +141,117 @@
 📋 待优化	需要进一步完善
 
 
+English Part
+🎯 How to Use This Ideas Hub
+1. Browse Existing Ideas
+Check current ideas before submitting to avoid duplicates.
+
+2. Choose the Right Category
+Add your idea in the appropriate section below.
+
+3. Use Standard Template
+Maintain consistent format for easy reading and discussion.
+
+4. Think Big and Bold
+No idea is "too crazy" - only possibilities not yet realized!
+
+🎪 Core Launch Experience
+Theme & Narrative
+<!-- Ideas about overall theme, storyline, emotional tone -->
+Stage Design & Visual Effects
+<!-- Stage effects, lighting, visual design, AR/VR experiences -->
+Agenda & Pacing Design
+<!-- Launch flow, session design, climax moments -->
+🌍 Global Participation
+Online Live Stream Experience
+<!-- How to create immersive experience for global online audience -->
+Local Watch Parties
+<!-- Organize offline viewing events in cities worldwide -->
+Multilingual & Localization
+<!-- Language support, cultural adaptation, localized content -->
+🔧 Technical Demonstration
+Product Demo Design
+<!-- How to brilliantly showcase DeepSeek's technical capabilities -->
+Developer Experience Showcase
+<!-- Technical demos and experience design for developers -->
+Ecosystem Partnership Showcase
+<!-- Partner case studies and ecosystem achievements -->
+👥 Community Engagement
+Community Representative Invitation
+<!-- How to select and invite community members to participate -->
+Online Interaction Design
+<!-- Interaction methods and participation during live stream -->
+Pre-launch Warm-up Activities
+<!-- Community interactions and warm-up before the launch -->
+🎁 Surprise Moments
+Major Announcements
+<!-- What surprise content beyond product launch -->
+Special Guest Invitations
+<!-- Which guests to invite and why -->
+Souvenirs & Benefits
+<!-- Special gifts and benefits for participants -->
+📢 Communication & Impact
+Pre-launch Buzz Strategy
+<!-- How to build anticipation and话题性 -->
+Social Media Campaign
+<!-- Hashtags, challenge campaigns, content distribution -->
+Post-launch Sustained Impact
+<!-- How to maintain momentum and influence -->
+🎯 Priority Idea Areas
+Urgent Creative Needs
+First 5 Minutes Wow Factor - How to captivate global audience from the start?
+
+Technical Demo "Aha!" Moments - What demos will amaze developers?
+
+Community Spotlight - How to best showcase community power?
+
+Cross-cultural Resonance - What elements will move global audiences?
+
+💡 Submit New Ideas
+English Submission Template:
+
+
+### [Your Idea Title]
+**Submitted by:** [Your GitHub username]
+**Category:** [Choose from categories above]
+**Core Concept:** [One-sentence summary]
+**Detailed Description:**
+[Detailed explanation including:
+- Specific implementation plan
+- Expected outcomes and impact
+- Why this idea fits DeepSeek]
+**Required Resources:** [If specific resources needed]
+**Reference Cases:** [If similar successful cases exist]
+**Tags:** #[relevant-tags, e.g.: #interaction-design #tech-demo #global-participation]
+
+
+🤝 Discussion & Voting
+English Guidelines
+👍 Use reactions to show support
+
+💬 Comment under ideas for deep discussion
+
+🔄 Suggest improvements and variations
+
+🚀 Initiate execution proposals for mature ideas
+
+📊 Idea Status Tracking
+Status	Description
+🆕 New	Recently submitted ideas
+💬 Discussing	Under community discussion
+✅ Accepted	Incorporated into implementation
+🚀 In Progress	Currently being implemented
+📋 Needs Refinement	Requires further improvement
+<div align="center">
+让我们用创意点亮DeepSeek的全球舞台！
+Let's light up DeepSeek's global stage with creativity!
+
+最后更新 | Last updated: 2025年11月20日 | November 20, 2025
+
+[⭐ 点赞这个仓库] · [👀 关注更新] · [🔄 分享创意]
+
+</div> ```
+
+
 
 
