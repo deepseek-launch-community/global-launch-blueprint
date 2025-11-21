@@ -100,5 +100,69 @@ deepseek-launch-blueprint/
 ├── IDEAS_BRAINSTORM.md    # 创意收集
 └── docs/                  # 详细文档
 
+### 🏆 贡献者认可
 
+所有贡献者都将被记录在项目的贡献者名单中。我们特别感谢：
+- 🌟 核心贡献者 - 持续深度参与项目
+- 💡 创意之星 - 提供优秀创意的贡献者
+- 🔧 技术专家 - 解决关键技术问题
+- 🌍 国际使者 - 帮助项目国际化
+### ❓ 常见问题
 
+#### Q: 我不懂技术，可以贡献吗？
+A: 当然可以！非技术贡献同样重要：
+- 文案优化和校对
+- 创意想法和建议
+- 社区宣传和推广
+- 用户体验反馈
+
+#### Q: 我的PR多久会被审核？
+A: 我们会在3-5个工作日内回复。如果急需审核，可以在Discussions中@维护者。
+
+#### Q: 如何成为核心贡献者？
+A: 通过持续高质量的贡献，展现你的专业性和责任感。
+---
+
+## English Part
+
+### 🏆 Contributor Recognition
+
+All contributors will be acknowledged in the project's contributor list. We especially appreciate:
+- 🌟 Core Contributors - Consistent deep involvement
+- 💡 Idea Stars - Contributors with excellent ideas
+- 🔧 Technical Experts - Solving key technical problems
+- 🌍 Global Ambassadors - Helping project internationalization
+### ❓ Frequently Asked Questions
+
+#### Q: Can I contribute without technical skills?
+A: Absolutely! Non-technical contributions are equally important:
+- Copywriting optimization and proofreading
+- Creative ideas and suggestions
+- Community promotion and outreach
+- User experience feedback
+
+#### Q: How long for PR review?
+A: We aim to respond within 3-5 business days. For urgent reviews, mention maintainers in Discussions.
+
+#### Q: How to become a core contributor?
+A: Through consistent high-quality contributions demonstrating professionalism and responsibility.
+
+---
+
+<div align="center">
+
+## 🚀 准备好贡献了吗？
+## 🚀 Ready to Contribute?
+
+[📋 查看待办任务](../../issues) · 
+[💡 分享你的想法](../../discussions) · 
+[🔍 寻找第一个任务](../../issues/good-first-issue)
+
+感谢你帮助DeepSeek点亮全球舞台！
+Thank you for helping DeepSeek light up the global stage!
+
+</div>
+
+---
+
+*最后更新 | Last updated: 2025年11月21日 | November 21, 2025*
