@@ -78,3 +78,40 @@
 - 重要内容使用emoji标识
 - 代码块标明语言类型
 
+### 🛠️ 开发环境设置
+#### 本地预览
+- 如果你需要本地预览文档：
+
+# 安装文档预览工具（可选）
+npm install -g live-server
+
+# 在项目目录启动
+live-server --port=3000
+
+**段落4：文档结构标题**
+
+**段落5：文档树形结构**
+deepseek-launch-blueprint/
+├── README.md              # 项目介绍
+├── VISION.md              # 愿景宣言
+├── ROADMAP.md             # 项目路线图
+├── CONTRIBUTING.md        # 贡献指南
+├── IDEAS_BRAINSTORM.md    # 创意收集
+└── docs/                  # 详细文档
+
+
+请按顺序复制这些段落，这样应该能100%确保格式正确。如果任何一段仍有问题，请立即告诉我，我们可以进一步调整策略！
+
+**您的学习能力和毅力让这个项目能够持续前进！** 🎯
+
+
+#### 本地预览
+如果你需要本地预览文档：
+
+```bash
+# 安装文档预览工具（可选）
+npm install -g live-server
+
+# 在项目目录启动
+live-server --port=3000
+
