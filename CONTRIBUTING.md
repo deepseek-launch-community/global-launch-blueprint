@@ -1,168 +1,76 @@
-# 👋 欢迎贡献者！
-# 👋 Welcome Contributors!
 
-<div align="center">
+# Contribution Guidelines
 
-**每一个贡献，无论大小，都在帮助DeepSeek走向世界舞台**  
-**Every contribution, big or small, helps DeepSeek step onto the world stage**
+Thank you for your interest in contributing to the DeepSeek Global Launch Community! Whether you have an idea, want to fix a typo, or draft a full proposal, you are most welcome.
 
-[**💡 分享创意**](./IDEAS_BRAINSTORM.md) · 
-[**🗺️ 查看路线图**](./ROADMAP.md) · 
-[**💬 加入讨论**](../../discussions)
+## 🚀 Before You Start
+- **Read**: Please browse `README.md` to understand our mission and structure.
+- **Discuss**: For significant ideas, we suggest starting a discussion in **Issues** or **Discussions** first to gather community feedback.
+- **Atmosphere**: Please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) and maintain a friendly, professional collaborative spirit.
 
-<br>
+## 📝 Contribution Workflow
+We recommend following this workflow for smoother collaboration:
 
-[**📍 跳转到中文部分**](#中文部分) · 
-[**📍 Jump to English Part**](#english-part)
+### 1. Find a Way to Contribute
+- **Report Issues or Propose Ideas**: Check the [Issues](链接) page for existing topics. If none, create a new one.
+- **Improve Documentation**: Find the relevant file (like this guide or blueprint docs) and make improvements.
+- **Claim a Task**: Look for issues labeled `help-wanted` or `good-first-issue` and comment to claim it.
 
-</div>
+### 2. Make Your Changes
+- **Fork this repository**: Click the `Fork` button at the top-right of the GitHub page to create your copy.
+- **Create a branch**: In your forked repository, create a new branch for your changes (e.g., `docs/update-readme`).
+- **Commit changes**: Make and commit your changes on that branch with clear commit messages.
 
----
+### 3. Submit a Pull Request (PR)
+- **Push to your fork**: Push your branch to your forked repository on GitHub.
+- **Open a PR**: Go to the original repository's GitHub page. You will usually see a prompt to open a Pull Request.
+- **Describe your contribution**: Clearly explain the purpose, content, and related issue number in the PR.
+- **Wait for review**: Community maintainers will review and may suggest changes. This is a normal collaborative process.
 
-## 中文部分 {#中文部分}
+## 🏆 Contribution Areas
+Contributions go beyond code and include:
+- 📄 **Documentation**: Fix errors, add content, improve readability.
+- 💡 **Ideas**: Propose constructive ideas or solutions in discussions.
+- 🔧 **Design**: Provide design suggestions or assets for events or pages.
+- 🌐 **Translation**: Help translate content into other languages.
 
-### 🎯 如何开始贡献？
-
-#### 1. 初次贡献者
-如果你是第一次参与开源项目，我们推荐从这些开始：
-- 🐛 **报告问题** - 在Issues中反馈你发现的问题
-- 💡 **提出建议** - 分享你的想法和改进建议
-- 📝 **改进文档** - 帮助完善文档中的错别字或表达
-
-#### 2. 熟悉GitHub工作流
-1. **Fork 仓库** - 点击右上角的Fork按钮
-2. **克隆到本地** - `git clone https://github.com/你的用户名/deepseek-launch-blueprint.git`
-3. **创建分支** - `git checkout -b feature/你的功能名称`
-4. **提交更改** - `git commit -m "描述你的修改"`
-5. **推送分支** - `git push origin feature/你的功能名称`
-6. **创建PR** - 在GitHub上发起Pull Request
-
-#### 3. 贡献类型
-
-##### 💭 创意贡献
-- 在 `IDEAS_BRAINSTORM.md` 中添加新创意
-- 参与Discussions中的话题讨论
-- 对现有创意提出改进建议
-
-##### 📚 文档贡献
-- 完善现有文档内容
-- 翻译文档到其他语言
-- 添加使用示例和教程
-
-##### 🔧 技术贡献
-- 设计技术演示方案
-- 编写代码示例
-- 优化项目结构
-
-### 📝 贡献规范
-
-#### 提交信息规范
-请使用清晰的提交信息格式：
-**类型说明：**
-- `feat`: 新功能
-- `fix`: 修复问题  
-- `docs`: 文档更新
-- `style`: 代码格式调整
-- `refactor`: 代码重构
-
-
-#### **示例：**
-  docs(贡献指南): 添加提交信息规范说明
-
-- 详细说明提交信息的格式要求
-- 提供类型说明和示例
-- 完善贡献流程文档
-#### 文档规范
-- 使用清晰的中英文双语
-- 保持Markdown格式统一
-- 重要内容使用emoji标识
-- 代码块标明语言类型
-
-### 🛠️ 开发环境设置
-#### 本地预览
-如果你需要本地预览文档：
-
-
-```bash
-# 安装文档预览工具（可选）
-npm install -g live-server
-
-# 在项目目录启动
-live-server --port=3000
-
-**文档树形结构**
-
-deepseek-launch-blueprint/
-├── README.md              # 项目介绍
-├── VISION.md              # 愿景宣言
-├── ROADMAP.md             # 项目路线图
-├── CONTRIBUTING.md        # 贡献指南
-├── IDEAS_BRAINSTORM.md    # 创意收集
-└── docs/                  # 详细文档
-
-### 🏆 贡献者认可
-
-所有贡献者都将被记录在项目的贡献者名单中。我们特别感谢：
-- 🌟 核心贡献者 - 持续深度参与项目
-- 💡 创意之星 - 提供优秀创意的贡献者
-- 🔧 技术专家 - 解决关键技术问题
-- 🌍 国际使者 - 帮助项目国际化
-### ❓ 常见问题
-
-#### Q: 我不懂技术，可以贡献吗？
-A: 当然可以！非技术贡献同样重要：
-- 文案优化和校对
-- 创意想法和建议
-- 社区宣传和推广
-- 用户体验反馈
-
-#### Q: 我的PR多久会被审核？
-A: 我们会在3-5个工作日内回复。如果急需审核，可以在Discussions中@维护者。
-
-#### Q: 如何成为核心贡献者？
-A: 通过持续高质量的贡献，展现你的专业性和责任感。
----
-
-## English Part
-
-### 🏆 Contributor Recognition
-
-All contributors will be acknowledged in the project's contributor list. We especially appreciate:
-- 🌟 Core Contributors - Consistent deep involvement
-- 💡 Idea Stars - Contributors with excellent ideas
-- 🔧 Technical Experts - Solving key technical problems
-- 🌍 Global Ambassadors - Helping project internationalization
-### ❓ Frequently Asked Questions
-
-#### Q: Can I contribute without technical skills?
-A: Absolutely! Non-technical contributions are equally important:
-- Copywriting optimization and proofreading
-- Creative ideas and suggestions
-- Community promotion and outreach
-- User experience feedback
-
-#### Q: How long for PR review?
-A: We aim to respond within 3-5 business days. For urgent reviews, mention maintainers in Discussions.
-
-#### Q: How to become a core contributor?
-A: Through consistent high-quality contributions demonstrating professionalism and responsibility.
+Thank you again for your contribution!
 
 ---
 
-<div align="center">
+# 贡献指南
 
-## 🚀 准备好贡献了吗？
-## 🚀 Ready to Contribute?
+感谢您有兴趣为 DeepSeek 全球发布会社区做出贡献！无论您是想提出一个想法、修改一个错别字，还是撰写完整的方案，我们都非常欢迎。
 
-[📋 查看待办任务](../../issues) · 
-[💡 分享你的想法](../../discussions) · 
-[🔍 寻找第一个任务](../../issues/good-first-issue)
+## 🚀 开始之前
+- **阅读**：请先浏览 `README.md` 了解我们的使命和项目结构。
+- **讨论**：如果您有一个重大想法，建议先在 **Issues** 或 **Discussions** 中发起讨论，听听社区反馈，这能帮助您完善它。
+- **氛围**：请遵守我们的 [行为准则](CODE_OF_CONDUCT.md)，保持友好、专业的协作精神。
 
-感谢你帮助DeepSeek点亮全球舞台！
-Thank you for helping DeepSeek light up the global stage!
+## 📝 贡献流程
+我们建议遵循以下流程，这能让协作更顺畅：
 
-</div>
+### 1. 找到贡献点
+- **报告问题或提出想法**：在 [Issues](链接) 页面查看是否有类似议题，若无则新建一个。
+- **改进文档**：直接找到对应的文件（如本指南或蓝图文档）进行改进。
+- **认领任务**：查看带有 `help-wanted` 或 `good-first-issue` 标签的议题，并在下面留言认领。
 
----
+### 2. 进行修改
+- **Fork 本仓库**：点击 GitHub 页面右上角的 `Fork` 按钮，创建您个人账户下的副本。
+- **创建分支**：在您 Fork 的仓库中，为您的修改创建一个新的分支（例如：`docs/update-readme`）。
+- **提交更改**：在分支上进行修改并提交，提交信息请清晰描述变动内容。
 
-*最后更新 | Last updated: 2025年11月21日 | November 21, 2025*
+### 3. 发起合并请求 (Pull Request)
+- **推送到您的仓库**：将您的修改分支推送到 GitHub 上您 Fork 的仓库。
+- **发起 PR**：回到**本仓库**（原始仓库）的 GitHub 页面，通常会看到提示，可点击发起 Pull Request。
+- **描述您的贡献**：在 PR 中清晰说明修改的目的、内容和相关 Issue 编号。
+- **等待审查**：社区维护者将会进行审查，并可能提出修改建议。这是一个正常的协作过程。
+
+## 🏆 贡献范围
+贡献不仅限于代码，还包括：
+- 📄 **文档**：修正错误、补充内容、提升可读性。
+- 💡 **创意**：在讨论区提出有建设性的想法或解决方案。
+- 🔧 **设计**：为活动或页面提供设计建议或素材。
+- 🌐 **翻译**：帮助将内容翻译成其他语言。
+
+再次感谢您的贡献！
