@@ -20,7 +20,7 @@ We value every form of participation:
 3.  **Invite Peers**: Share this community with more friends. Diverse backgrounds spark more creativity.
 
 ## 📬 Stay Connected
-All official discussions take place in this repository's **[[Issues](https://github.com/deepseek-launch-community/global-launch-blueprint/issues)](链接)** and **[Discussions]([/discussion](https://github.com/deepseek-launch-community/global-launch-blueprint/discussions)(链接)**. We look forward to your insights!
+All official discussions take place in this repository's **[[Issues](https://github.com/deepseek-launch-community/global-launch-blueprint/issues)]** and **[Discussions](https://github.com/deepseek-launch-community/global-launch-blueprint/discussions)**. We look forward to your insights!
 
 ---
 *This community is independently created and maintained by DeepSeek enthusiasts and is an unofficial open-source collaboration project.*
