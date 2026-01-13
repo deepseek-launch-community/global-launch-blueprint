@@ -6,13 +6,13 @@ Thank you for your interest in contributing to the DeepSeek Global Launch Commun
 ## 🚀 Before You Start
 - **Read**: Please browse `README.md` to understand our mission and structure.
 - **Discuss**: For significant ideas, we suggest starting a discussion in **Issues** or **Discussions** first to gather community feedback.
-- **Atmosphere**: Please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) and maintain a friendly, professional collaborative spirit.
+- **Atmosphere**: Please adhere to our [Code of Conduct](https://github.com/deepseek-launch-community/global-launch-blueprint/blob/main/CODE_OF_CONDUCT行为准则.md) and maintain a friendly, professional collaborative spirit.
 
 ## 📝 Contribution Workflow
 We recommend following this workflow for smoother collaboration:
 
 ### 1. Find a Way to Contribute
-- **Report Issues or Propose Ideas**: Check the [Issues](链接) page for existing topics. If none, create a new one.
+- **Report Issues or Propose Ideas**: Check the [Issues](https://github.com/deepseek-launch-community/global-launch-blueprint/issues) page for existing topics. If none, create a new one.
 - **Improve Documentation**: Find the relevant file (like this guide or blueprint docs) and make improvements.
 - **Claim a Task**: Look for issues labeled `help-wanted` or `good-first-issue` and comment to claim it.
 
@@ -45,13 +45,13 @@ Thank you again for your contribution!
 ## 🚀 开始之前
 - **阅读**：请先浏览 `README.md` 了解我们的使命和项目结构。
 - **讨论**：如果您有一个重大想法，建议先在 **Issues** 或 **Discussions** 中发起讨论，听听社区反馈，这能帮助您完善它。
-- **氛围**：请遵守我们的 [行为准则](CODE_OF_CONDUCT.md)，保持友好、专业的协作精神。
+- **氛围**：请遵守我们的 [行为准则](https://github.com/deepseek-launch-community/global-launch-blueprint/blob/main/CODE_OF_CONDUCT行为准则.md)，保持友好、专业的协作精神。
 
 ## 📝 贡献流程
 我们建议遵循以下流程，这能让协作更顺畅：
 
 ### 1. 找到贡献点
-- **报告问题或提出想法**：在 [Issues](链接) 页面查看是否有类似议题，若无则新建一个。
+- **报告问题或提出想法**：在 [Issues](https://github.com/deepseek-launch-community/global-launch-blueprint/issues) 页面查看是否有类似议题，若无则新建一个。
 - **改进文档**：直接找到对应的文件（如本指南或蓝图文档）进行改进。
 - **认领任务**：查看带有 `help-wanted` 或 `good-first-issue` 标签的议题，并在下面留言认领。
 
