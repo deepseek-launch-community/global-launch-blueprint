@@ -15,7 +15,7 @@ We collect ideas through these structured projects:
 
 ## 🤝 How to Contribute
 We value every form of participation:
-1.  **Propose Ideas**: Start a new discussion in [Issues]([issues](https://github.com/deepseek-launch-community/global-launch-blueprint/issues) or [Discussions]((https://github.com/deepseek-launch-community/global-launch-blueprint/discussions))(链接).
+1.  **Propose Ideas**: Start a new discussion in [Issues]([issues](https://github.com/deepseek-launch-community/global-launch-blueprint/issues) or [Discussions](https://github.com/deepseek-launch-community/global-launch-blueprint/discussions).
 2.  **Improve Plans**: Directly improve existing project documentation or provide feedback on others' ideas.
 3.  **Invite Peers**: Share this community with more friends. Diverse backgrounds spark more creativity.
 
