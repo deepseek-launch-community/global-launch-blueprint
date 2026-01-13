@@ -44,12 +44,12 @@ All official discussions take place in this repository's **[[Issues](https://git
 
 ## 🤝 如何参与共建
 我们珍视每一种参与方式：
-1.  **提出想法**：在 [Issues](链接) 或 [Discussions](链接) 中发起新讨论。
+1.  **提出想法**：在 [Issues](https://github.com/deepseek-launch-community/global-launch-blueprint/issues) 或 [Discussions](https://github.com/deepseek-launch-community/global-launch-blueprint/discussions) 中发起新讨论。
 2.  **完善规划**：直接改进现有项目文档，或对他人想法提出补充建议。
 3.  **邀请同伴**：将本社区分享给更多朋友，多元背景能激发更多创意。
 
 ## 📬 保持联系
-所有正式讨论均通过本仓库的 **[Issues](链接)** 和 **[Discussions](链接)** 进行。期待你的真知灼见！
+所有正式讨论均通过本仓库的 **[Issues](https://github.com/deepseek-launch-community/global-launch-blueprint/issues)** 和 **[Discussions](https://github.com/deepseek-launch-community/global-launch-blueprint/discussions)** 进行。期待你的真知灼见！
 
 ---
 *本社区由 DeepSeek 爱好者自发创建和维护，是一个独立于官方的开源协作项目。*
