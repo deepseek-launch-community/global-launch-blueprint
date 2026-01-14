@@ -26,7 +26,7 @@ Project maintainers have the right and responsibility to remove, edit, or reject
 This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces.
 
 ## Reporting and Enforcement
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the project team at **[Please fill in contact email or Issue link here]**. All complaints will be reviewed and investigated promptly and fairly. All reporters are obligated to respect the privacy and security of the reporter of any incident.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the project team at **[Please fill in contact email or [Issue](https://github.com/deepseek-launch-community/global-launch-blueprint/issues) link here]**. All complaints will be reviewed and investigated promptly and fairly. All reporters are obligated to respect the privacy and security of the reporter of any incident.
 
 ## Attribution
 This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.1.
@@ -61,7 +61,7 @@ This Code of Conduct is adapted from the [Contributor Covenant](https://www.cont
 本行为准则适用于所有项目空间，也适用于个人在公共空间代表项目或社区时的行为。
 
 ## 举报与处理
-如遭遇或发现滥用、骚扰或其他不可接受的行为，请通过 **[请在此处填写可联系的邮箱或Issue链接]** 联系项目维护团队。所有投诉都将得到及时、公正的审查和调查，并对事件相关人员的隐私予以保护。
+如遭遇或发现滥用、骚扰或其他不可接受的行为，请通过 **[请在此处填写可联系的邮箱或 [Issue](https://github.com/deepseek-launch-community/global-launch-blueprint/issues) 链接]** 联系项目维护团队。所有投诉都将得到及时、公正的审查和调查，并对事件相关人员的隐私予以保护。
 
 ## 附注
 本行为准则改编自 [贡献者公约](https://www.contributor-covenant.org)，版本 2.1。
