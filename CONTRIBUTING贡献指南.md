@@ -1,10 +1,9 @@
-
 # Contribution Guidelines
 
 Thank you for your interest in contributing to the DeepSeek Global Launch Community! Whether you have an idea, want to fix a typo, or draft a full proposal, you are most welcome.
 
 ## 🚀 Before You Start
-- **Read**: Please browse `README.md` to understand our mission and structure.
+- **Read**: Please browse [README.md](https://github.com/deepseek-launch-community/global-launch-blueprint/blob/main/README.md) to understand our mission and structure.
 - **Discuss**: For significant ideas, we suggest starting a discussion in **Issues** or **Discussions** first to gather community feedback.
 - **Atmosphere**: Please adhere to our [Code of Conduct](https://github.com/deepseek-launch-community/global-launch-blueprint/blob/main/CODE_OF_CONDUCT行为准则.md) and maintain a friendly, professional collaborative spirit.
 
@@ -17,7 +16,7 @@ We recommend following this workflow for smoother collaboration:
 - **Claim a Task**: Look for issues labeled `help-wanted` or `good-first-issue` and comment to claim it.
 
 ### 2. Make Your Changes
-- **Fork this repository**: Click the `Fork` button at the top-right of the GitHub page to create your copy.
+- **Fork this repository**: Click the [Fork](https://github.com/deepseek-launch-community/global-launch-blueprint/fork) button at the top-right of the GitHub page to create your copy.
 - **Create a branch**: In your forked repository, create a new branch for your changes (e.g., `docs/update-readme`).
 - **Commit changes**: Make and commit your changes on that branch with clear commit messages.
 
@@ -43,7 +42,7 @@ Thank you again for your contribution!
 感谢您有兴趣为 DeepSeek 全球发布会社区做出贡献！无论您是想提出一个想法、修改一个错别字，还是撰写完整的方案，我们都非常欢迎。
 
 ## 🚀 开始之前
-- **阅读**：请先浏览 `README.md` 了解我们的使命和项目结构。
+- **阅读**：请先浏览 [README.md](https://github.com/deepseek-launch-community/global-launch-blueprint/blob/main/README.md)了解我们的使命和项目结构。
 - **讨论**：如果您有一个重大想法，建议先在 **Issues** 或 **Discussions** 中发起讨论，听听社区反馈，这能帮助您完善它。
 - **氛围**：请遵守我们的 [行为准则](https://github.com/deepseek-launch-community/global-launch-blueprint/blob/main/CODE_OF_CONDUCT行为准则.md)，保持友好、专业的协作精神。
 
@@ -56,7 +55,7 @@ Thank you again for your contribution!
 - **认领任务**：查看带有 `help-wanted` 或 `good-first-issue` 标签的议题，并在下面留言认领。
 
 ### 2. 进行修改
-- **Fork 本仓库**：点击 GitHub 页面右上角的 `Fork` 按钮，创建您个人账户下的副本。
+- **Fork 本仓库**：点击 GitHub 页面右上角的 [Fork](https://github.com/deepseek-launch-community/global-launch-blueprint/fork) 按钮，创建您个人账户下的副本。
 - **创建分支**：在您 Fork 的仓库中，为您的修改创建一个新的分支（例如：`docs/update-readme`）。
 - **提交更改**：在分支上进行修改并提交，提交信息请清晰描述变动内容。
 
