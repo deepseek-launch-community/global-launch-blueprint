@@ -51,7 +51,7 @@ Find your way to contribute quickly and meaningfully:
 | **Discuss technical papers & architecture** | Join deep dives in the **Paper Club** | [🧠 Join](https://github.com/deepseek-launch-community/global-launch-blueprint/discussions/4) |
 | **Ask specific questions or share solutions** | Participate in **Monthly Q&A** | [❓ Participate](https://github.com/deepseek-launch-community/global-launch-blueprint/discussions/5) |
 | **Share fun or surprising moments** | Relax and laugh in **Wins & Fails** | [😄 Visit](https://github.com/deepseek-launch-community/global-launch-blueprint/discussions/2) |
-| **Brainstorm vague ideas or chat casually** | Browse other **Discussions** | [💬 Browse All](./discussions) |
+| **Brainstorm vague ideas or chat casually** | Browse other **Discussions** | [💬 Browse All](https://github.com/deepseek-launch-community/global-launch-blueprint/discussions) |
 | **Report a clear bug or submit code** | **Go to the official repos** for Issues/PRs | [DeepSeek-Coder](https://github.com/deepseek-ai/DeepSeek-Coder) / [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) |
 
 ### 2. Contribute to the Community
