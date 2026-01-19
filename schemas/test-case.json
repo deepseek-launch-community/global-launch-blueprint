@@ -1,0 +1,9 @@
+{
+  "ResponsibilityView": {
+    "actor": "LLM",
+    "action": "explain_concept"
+  },
+  "ReasoningPath": {
+    "steps": ["第一步", "第二步"]
+  }
+}
