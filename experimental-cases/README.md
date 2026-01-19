@@ -1,60 +1,37 @@
-# 实验性案例池
+# Experimental Case Pool
 
-欢迎来到SRCP协议的实验探索区！这里是你尝试、学习、反馈的沙盒。
+This is the sandbox for testing SRCP protocol with real dialogue cases.
 
-## 📁 如何提交？
-1. 在 by-contributor/你的用户名/ 创建目录
-2. 添加三个文件：
-   - original-conversation.md
-   - srcp-attempt.json
-   - pain-report.md
-## 注意事项
-- 遵循开源协议
-- 不要提交敏感信息
+## Quick Start
+1. Create your directory: `by-contributor/your-username/`
+2. Add a case subdirectory: `YYYYMMDD-case-name/`
+3. Include three required files (see below)
 
-**注意**：请将 `[你的用户名]` 替换为你的实际GitHub用户名，`[创建目录]` 替换为你的案例名称。
+## Required Files
+Each case must have:
+- `original-conversation.md` - The dialogue text
+- `srcp-attempt.json` - Your SRCP conversion attempt
+- `pain-report.md` - Conversion difficulties report
 
-## 🚀 如何开始？
+## Pain Report (Most Important!)
+Your pain report helps improve SRCP. Please describe:
+1. Which SRCP field was hardest to fill? Why?
+2. Which SRCP concept was most confusing?
+3. What important information couldn't SRCP express?
 
-### 第一步：创建你的目录
-1. 进入 `by-contributor/` 文件夹
-2. 创建一个以你**GitHub用户名**命名的文件夹
-
-### 第二步：添加案例
-在你的文件夹内，创建案例子目录：
-- **命名格式**：`YYYYMMDD-简短描述`
-- **示例**：`20240119-数学推理示例`
-
-### 第三步：添加必需文件
-每个案例目录**必须包含**以下三个文件：
-
-1. **`original-conversation.md`** - 原始对话文本
-2. **`srcp-attempt.json`** - 你的SRCP转换尝试  
-3. **`pain-report.md`** - 困惑报告（使用[模板](./TEMPLATE.md)）
-
-## 📝 困惑报告
-
-困惑报告是你的**核心价值**！请务必：
-- 详细描述转换中遇到的困难
-- 提出具体的改进建议
-- 反馈指南的使用体验
-
-**完整模板请见**：[TEMPLATE.md](./TEMPLATE.md)
-
-## ⚠️ 重要提醒
-
-- ✅ **所有提交遵循项目开源协议**
-- ✅ **报告将公开讨论，用于改进协议**
-- ✅ **优秀贡献者可能受邀参与设计**
-- ❌ **切勿提交任何敏感或个人隐私信息**
-
-## 🤝 下一步
-
-1. 按上述结构提交你的案例
-2. 在 `#experimental-case-help` 讨论区分享链接
-3. 参与社区讨论，完善你的案例
+## Notes
+- All contributions follow project open source license
+- Reports will be publicly discussed
+- Do not submit sensitive/private information
 
 ---
 
-**需要更详细的指南？** 请查看 [docs/conversion-starter.md](../docs/conversion-starter.md)
+## 中文说明（简要）
+此处为SRCP协议实验案例池，用于测试真实对话案例的转换。
 
+**快速开始：**
+1. 在 `by-contributor/你的用户名/` 创建目录
+2. 添加案例子目录
+3. 包含三个必需文件
+
+**重要：** 必须提交困惑报告，描述转换困难。
