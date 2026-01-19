@@ -2,14 +2,16 @@
 
 欢迎来到SRCP协议的实验探索区！这里是你尝试、学习、反馈的沙盒。
 
-## 📁 目录结构
+## 📁 如何提交？
+1. 在 by-contributor/你的用户名/ 创建目录
+2. 添加三个文件：
+   - original-conversation.md
+   - srcp-attempt.json
+   - pain-report.md
 
-我们推荐按贡献者组织案例。
-
-项目结构如下：
-
-
-
+## 注意事项
+- 遵循开源协议
+- 不要提交敏感信息
 
 
 
