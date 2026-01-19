@@ -8,14 +8,11 @@
    - original-conversation.md
    - srcp-attempt.json
    - pain-report.md
-
 ## 注意事项
 - 遵循开源协议
 - 不要提交敏感信息
 
-
-
-**注意**：请将 `[你的GitHub用户名]` 替换为你的实际GitHub用户名，`[案例目录]` 替换为你的案例名称。
+**注意**：请将 `[你的用户名]` 替换为你的实际GitHub用户名，`[创建目录]` 替换为你的案例名称。
 
 ## 🚀 如何开始？
 
