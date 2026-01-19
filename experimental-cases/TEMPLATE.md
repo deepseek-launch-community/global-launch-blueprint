@@ -1,26 +1,16 @@
-# 困惑报告模板
 
-请在 `pain-report.md` 中使用此模板。
+# Pain Report Template (困惑报告模板)
 
-## 必须包含的内容
+**English:**
+Please include in your `pain-report.md`:
+1. Hardest SRCP field to fill and why
+2. Most confusing SRCP concept
+3. Information that SRCP couldn't express
+4. Suggestions for improvement
 
-### 1. 基本信息
-- 案例名称：
-- 原始文件：
-- SRCP尝试文件：
-- 提交日期：
-- 你的GitHub用户名：
-
-### 2. 转换难点
-- 最难填写的SRCP字段：
-- 最难理解的SRCP概念：
-- 无法在SRCP中表达的信息：
-
-### 3. 改进建议
-- 对协议的建议：
-- 对文档的建议：
-- 其他想法：
-
-### 4. 自助过程反馈
-- 使用指南的体验：
-- 最需要帮助的部分：
+**中文：**
+请在 `pain-report.md` 中包含：
+1. 最难填写的SRCP字段及原因
+2. 最模糊的SRCP概念
+3. SRCP无法表达的信息
+4. 改进建议
