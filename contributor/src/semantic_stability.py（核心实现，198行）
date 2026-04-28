@@ -1,0 +1,209 @@
+"""
+SRCP A-layer Demo #11: Δ_sem Semantic Stability Detector
+
+[EN] 
+Categorical Re-reading:
+- Objects: source_text_anchors
+- Morphisms: model inference transitions  
+- Functor F: C → Set, mapping semantic states to stability measures
+- Δ_sem > ε: A computable proxy for "functor fails to preserve composition"
+- This is the first engineering instantiation of the "Semantic Responsibility as Functor" framework.
+- Discussion: https://github.com/deepseek-launch-community/global-launch-blueprint/discussions/11#discussioncomment-15679712
+
+
+[中文]
+范畴论重读：
+"""
+SRCP A-layer Demo #11: Δ_sem 语义稳定性检测
+关联Discussion: https://github.com/deepseek-launch-community/global-launch-blueprint/discussions/11#discussioncomment-15679712
+
+范畴论重读：
+- source_text_anchors → 对象 (Objects)
+- 模型推断功能 → 态射 (Morphisms)
+- 本检测逻辑 → StabilityFunctor F: C → Set
+  F(对象) = 语义向量
+  F(态射 f: A→B) = 从A的语义向量到B的语义向量的跃迁
+- Δ_sem 是 F(f ∘ g) 与 F(f) ∘ F(g) 差异的代理度量
+- 当 Δ_sem > ε，提示态射复合在F下不保持，即“责任链断裂”
+"""
+
+import numpy as np
+from typing import List, Dict, Tuple, Optional
+from dataclasses import dataclass, field
+from enum import Enum
+
+class BoundaryStatus(Enum):
+    STABLE = "within_boundary"
+    WARNING = "approaching_boundary" 
+    CRITICAL = "boundary_breached"
+
+@dataclass
+class SemanticState:
+    """语义状态对象 (范畴论中的对象)"""
+    text_anchor: str
+    vector: np.ndarray
+    timestamp: float
+    
+@dataclass  
+class Transition:
+    """语义跃迁 (范畴论中的态射)"""
+    source: SemanticState
+    target: SemanticState
+    model_id: str
+    
+@dataclass
+class SRCPFields:
+    """SRCP 输出字段映射"""
+    boundary: float  # 稳定边界阈值
+    responsibility: BoundaryStatus  # 断裂预警
+    delta_sem: float  # 原始 Δ_sem 值
+    composition_valid: bool  # 函子是否保持复合
+
+class SemanticStabilityDetector:
+    """
+    语义稳定性检测器
+    实现 Δ_sem = |A_t + /A_{-t}| - φ
+    并映射至SRCP责任字段
+    """
+    
+    def __init__(self, phi: float = 0.618, epsilon: float = 0.1):
+        """
+        参数:
+            phi: 黄金比例基准 (默认0.618)
+            epsilon: 边界阈值，Δ_sem > epsilon 视为不稳定
+        """
+        self.phi = phi
+        self.epsilon = epsilon
+        self.history: List[SemanticState] = []
+        
+    def _safe_normalize(self, v: np.ndarray) -> np.ndarray:
+        """安全归一化，处理零向量"""
+        norm = np.linalg.norm(v)
+        if norm < 1e-12:
+            return v
+        return v / norm
+    
+    def compute_at_series(self, 
+                         current: SemanticState, 
+                         window: int = 5) -> Tuple[float, float]:
+        """
+        计算 A_t 和 A_{-t}
+        A_t: 当前向量与前一时刻的相似度
+        A_{-t}: 当前向量与更早时刻的典型性差异
+        """
+        if len(self.history) < 2:
+            return 0.0, 0.0
+            
+        # A_t: 当前与前一时刻的余弦相似度
+        prev = self.history[-1]
+        cos_sim = np.dot(
+            self._safe_normalize(current.vector),
+            self._safe_normalize(prev.vector)
+        )
+        A_t = max(0, cos_sim)  # 截断至[0,1]
+        
+        # A_{-t}: 当前与窗口内历史状态的差异度量
+        if len(self.history) >= window:
+            recent = self.history[-window:]
+            recent_vecs = np.array([s.vector for s in recent])
+            centroid = np.mean(recent_vecs, axis=0)
+            # 差异度 = 1 - 与质心的余弦相似度
+            diff = 1 - np.dot(
+                self._safe_normalize(current.vector),
+                self._safe_normalize(centroid)
+            )
+            A_neg_t = max(0, diff)
+        else:
+            A_neg_t = 0.0
+            
+        return A_t, A_neg_t
+    
+    def delta_sem(self, 
+                  current: SemanticState, 
+                  window: int = 5) -> float:
+        """
+        计算 Δ_sem = |A_t + /A_{-t}| - φ
+        其中 /A_{-t} 表示 A_{-t} 的平滑倒数，避免除零
+        """
+        A_t, A_neg_t = self.compute_at_series(current, window)
+        
+        # 平滑倒数： /x = 1/(x + δ)
+        delta = 1e-6
+        inv_A_neg_t = 1.0 / (A_neg_t + delta)
+        
+        raw_value = abs(A_t + inv_A_neg_t) - self.phi
+        return max(0.0, raw_value)  # 非负截断
+    
+    def evaluate_transition(self, 
+                           transition: Transition,
+                           window: int = 5) -> SRCPFields:
+        """
+        评估单次语义跃迁，生成SRCP字段
+        这是 StabilityFunctor 的核心应用
+        """
+        # 1. 记录当前状态
+        self.history.append(transition.target)
+        if len(self.history) > 20:  # 滑动窗口
+            self.history.pop(0)
+            
+        # 2. 计算 Δ_sem
+        delta = self.delta_sem(transition.target, window)
+        
+        # 3. 边界状态判定
+        if delta <= self.epsilon * 0.5:
+            status = BoundaryStatus.STABLE
+        elif delta <= self.epsilon:
+            status = BoundaryStatus.WARNING
+        else:
+            status = BoundaryStatus.CRITICAL
+            
+        # 4. 态射复合有效性检查（函子保持性代理）
+        #    当连续出现CRITICAL时，认为复合不保持
+        composition_valid = True
+        if len(self.history) >= 3:
+            # 检查最后两次跃迁的 Δ_sem
+            last_two = [self.delta_sem(s, window) for s in self.history[-3:]]
+            if all(d > self.epsilon for d in last_two[-2:]):
+                composition_valid = False
+        
+        return SRCPFields(
+            boundary=self.epsilon,
+            responsibility=status,
+            delta_sem=delta,
+            composition_valid=composition_valid
+        )
+    
+    def reset(self):
+        """重置检测器状态"""
+        self.history = []
+
+
+# 使用示例（若直接运行）
+if __name__ == "__main__":
+    # 模拟对话流
+    detector = SemanticStabilityDetector(phi=0.618, epsilon=0.15)
+    
+    # 模拟语义状态序列
+    mock_vectors = [
+        np.random.randn(384) for _ in range(10)
+    ]  # 实际应来自模型embedding
+    
+    for i, vec in enumerate(mock_vectors):
+        state = SemanticState(
+            text_anchor=f"utterance_{i}",
+            vector=vec,
+            timestamp=i * 1.0
+        )
+        
+        if i > 0:
+            prev_state = detector.history[-1] if detector.history else None
+            if prev_state:
+                trans = Transition(
+                    source=prev_state,
+                    target=state,
+                    model_id="mock_encoder_v1"
+                )
+                result = detector.evaluate_transition(trans)
+                print(f"Turn {i}: Δ_sem={result.delta_sem:.4f}, "
+                      f"Status={result.responsibility.value}, "
+                      f"Composition valid={result.composition_valid}")
